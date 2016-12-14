@@ -49,7 +49,7 @@ int main(void)
 	break;
       }
       _delay_ms(200);
-      // función cuando los 4 lesa están n uso
+      // función cuando los 4 leds  están en el mismo Puerto
       PORTB = 0x00;
       _delay_ms(200);
     }
