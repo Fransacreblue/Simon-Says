@@ -1,5 +1,5 @@
-#pragma config CP=OFF,OSC=RC,WDT=OFF
-
+#pragma config CP=OFF,OSC=RC,WDT=OFFLINE
+#device 16F877A
 #include <xc.h>
 #include "rand.h"
 #include "main.h"
