@@ -15,7 +15,7 @@ struct {
 
 int main(void)
 {
-  // configure pins as output/input
+  // configurar como entrada y salida
   PORTA = 0x00;
   TRISA = ACONF;
   PORTB = 0x00;
@@ -49,7 +49,7 @@ int main(void)
 	break;
       }
       _delay_ms(200);
-      // works only because all 4 LEDs are on the same port
+      // función cuando los 4 lesa están n uso
       PORTB = 0x00;
       _delay_ms(200);
     }
